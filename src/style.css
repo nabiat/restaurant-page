@@ -1,0 +1,49 @@
+#content {
+    gap: 20px;
+    display: grid;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-template-rows: 2fr 1fr 0.5fr;
+}
+
+.busHrs {
+    display: grid;
+    max-width: 50rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.busTitle {
+    font-weight: bold;
+    grid-column: 1 / 3;
+}
+
+.intro {
+    display: flex;
+    max-width: 50rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.introTitle {
+    font-weight: bold;
+}
+
+.upper {
+    max-width: 50rem;
+    min-height: 390px;
+}
+
+.upper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-weight: bold;
+    grid-column: 1 / 3;
+}
