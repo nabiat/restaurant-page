@@ -1,8 +1,6 @@
 function menuLoad() {
     let container = document.getElementById('content');
-
-    // container.style['grid-template-rows'] = '50px';
-    // container.style['gap'] = '0px';
+    container.className = 'menu-grid';
 
     let title = document.createElement('div');
     title.textContent = 'MENU';
@@ -81,8 +79,8 @@ function nonFasting(container) {
     let dulPrice = document.createElement('div');
     dulPrice.textContent = '$30';
 
-    container.append(nonFasting, tibs, tPrice, kitfo, kPrice, doro, dPrice,
-         dulet, dulPrice);
+    container.append(nonFasting, dulet, dulPrice, kitfo, kPrice,
+        doro, dPrice, tibs, tPrice);
 }
 
 export { menuLoad }

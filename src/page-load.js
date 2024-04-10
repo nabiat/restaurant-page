@@ -2,6 +2,7 @@ import foodImage from './ethiopian-food.jpg';
 
 function pageLoad() {
     let container = document.getElementById('content');
+    container.className = 'home-grid';
     let upper = document.createElement('div');
     let intro = document.createElement('div');
     let busHrs = document.createElement('div');
